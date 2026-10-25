@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.eduhortiz.carnetsanidad",
+        "sha256_cert_fingerprints": ["30:ED:1E:23:C2:D4:A8:CC:BC:DA:BE:E5:55:A7:32:7B:E3:08:51:93:16:CB:56:0F:19:A8:EB:E4:E5:5B:D0:28"]
+      }
+    }]
