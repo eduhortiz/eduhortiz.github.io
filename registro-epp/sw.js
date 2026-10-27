@@ -1,7 +1,7 @@
 // Guarda solo los archivos de la app para que abra rápido y sin internet.
 // Nunca guarda respuestas del Apps Script (datos de personal, stock, usuarios).
-const CACHE = 'epp-v1';
-const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'js/dc-runtime.js', 'js/react.production.min.js', 'js/react-dom.production.min.js', 'icons/icon-192.png', 'icons/icon-512.png'];
+const CACHE = 'epp-v2';
+const SHELL = ['./', 'index.html', 'manifest.webmanifest', 'js/dc-runtime.js', 'js/react.production.min.js', 'js/react-dom.production.min.js', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
