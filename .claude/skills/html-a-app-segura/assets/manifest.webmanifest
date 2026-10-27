@@ -1,0 +1,18 @@
+{
+  "name": "Registro de Uniformes y EPPs",
+  "short_name": "Uniformes EPP",
+  "description": "Registro de ingresos, entregas y stock de uniformes y EPPs.",
+  "id": "/registro-epp/",
+  "start_url": "/registro-epp/",
+  "scope": "/registro-epp/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "es-PE",
+  "background_color": "#0F2A44",
+  "theme_color": "#0F2A44",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
