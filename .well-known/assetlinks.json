@@ -1,8 +1,18 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "com.eduhortiz.carnetsanidad",
-        "sha256_cert_fingerprints": ["30:ED:1E:23:C2:D4:A8:CC:BC:DA:BE:E5:55:A7:32:7B:E3:08:51:93:16:CB:56:0F:19:A8:EB:E4:E5:5B:D0:28"]
-      }
-    }]
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.eduhortiz.carnetsanidad",
+      "sha256_cert_fingerprints": ["30:ED:1E:23:C2:D4:A8:CC:BC:DA:BE:E5:55:A7:32:7B:E3:08:51:93:16:CB:56:0F:19:A8:EB:E4:E5:5B:D0:28"]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.eduhortiz.registroepp",
+      "sha256_cert_fingerprints": ["F2:F8:8E:C2:4A:A0:14:4A:C2:40:32:B0:61:DA:4C:13:B2:48:5F:72:98:EB:30:C2:1A:5E:95:C3:3C:A7:69:BC"]
+    }
+  }
+]
